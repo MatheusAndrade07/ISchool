@@ -47,5 +47,4 @@ Professores de todos os níveis de ensino que desejam otimizar a organização d
 * Adapte esta descrição com detalhes mais específicos do seu software, como recursos únicos, tecnologias utilizadas e diferenciais em relação a outras soluções.
 * Use uma linguagem clara, concisa e que seja fácil de entender para o seu público-alvo.
 * Inclua imagens ou capturas de tela do software para ilustrar a descrição.
-
-Lembre-se de que uma boa descrição é fundamental para apresentar o seu software de forma eficaz e atrair a atenção dos usuários! 
+Lembre-se de que uma boa descrição é fundamental para apresentar o seu software de forma eficaz e atrair a atenção dos usuários!
