@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTelaProfessor));
             this.lblTurmas = new System.Windows.Forms.Label();
             this.btnTelaCadastro = new System.Windows.Forms.Button();
             this.lblNomeProfessor = new System.Windows.Forms.Label();
@@ -97,6 +98,7 @@
             this.Controls.Add(this.lblTurmas);
             this.Controls.Add(this.btnTelaCadastro);
             this.Controls.Add(this.lblNomeProfessor);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmTelaProfessor";
             this.Text = "Administrar Turmas";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvTurmas)).EndInit();

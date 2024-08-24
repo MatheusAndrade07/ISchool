@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastrarAtividade));
             this.btnCadastrarAtividade = new System.Windows.Forms.Button();
             this.lblDescricaoAtividade = new System.Windows.Forms.Label();
             this.lblTituloAtividade = new System.Windows.Forms.Label();
@@ -94,6 +95,7 @@
             this.Controls.Add(this.lblTituloAtividade);
             this.Controls.Add(this.txtTituloAtividade);
             this.Controls.Add(this.btnCadastrarAtividade);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCadastrarAtividade";
             this.Text = "Cadastrar Atividade";
             this.ResumeLayout(false);

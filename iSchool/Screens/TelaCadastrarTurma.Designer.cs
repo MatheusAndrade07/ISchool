@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTelaCadastrarTurma));
             this.btnCadastrarTurma = new System.Windows.Forms.Button();
             this.lblNomeTurma = new System.Windows.Forms.Label();
             this.txtNomeCadastrarTurma = new System.Windows.Forms.TextBox();
@@ -71,6 +72,7 @@
             this.Controls.Add(this.lblNomeTurma);
             this.Controls.Add(this.txtNomeCadastrarTurma);
             this.Controls.Add(this.btnCadastrarTurma);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmTelaCadastrarTurma";
             this.Text = "Cadastrar Turma";
             this.ResumeLayout(false);
